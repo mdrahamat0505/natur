@@ -43,7 +43,7 @@ class MovieDetailAppBar extends StatelessWidget {
                   state.isMovieFavorite
                       ? Icons.favorite
                       : Icons.favorite_border,
-                  color: Colors.white,
+                  color: Colors.red,
                   size: Sizes.dimen_12.h,
                 ),
               );
