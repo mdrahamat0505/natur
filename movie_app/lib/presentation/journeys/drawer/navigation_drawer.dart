@@ -31,8 +31,9 @@ class NavigationDrawer extends StatelessWidget {
       ),
       width: Sizes.dimen_300.w,
       child: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: ListView(
+          scrollDirection: Axis.vertical,
+          // crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: EdgeInsets.only(
